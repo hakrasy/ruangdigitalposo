@@ -31,7 +31,7 @@
     <style>
         /* CSS Khusus Mode Cetak / PDF Multi-halaman */
         @media print {
-            header, #toast, .no-print, #login-modal, #register-modal, #public-nav, #auth-nav {
+            header, footer, #toast, .no-print, #login-modal, #register-modal, #public-nav, #auth-nav {
                 display: none !important;
             }
 
@@ -718,6 +718,13 @@
         </section>
 
     </main>
+
+    <!-- Footer Sederhana -->
+    <footer class="bg-white border-t border-slate-200 py-4 mt-auto no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-slate-500 font-medium">
+            Developed by Abdul Rasyid Hakim <i class="fa-regular fa-copyright mx-0.5"></i> 2026
+        </div>
+    </footer>
 
     <!-- Modal Detail Refleksi (Untuk Cetak / Simpan PDF) -->
     <div id="refleksi-detail-modal" class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
